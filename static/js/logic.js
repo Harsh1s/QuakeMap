@@ -159,7 +159,7 @@ d3.json(url).then(function (data) {
 
         return div;
     };
-    //add layer
+//add layer
     legend.addTo(myMap);
 
 });
@@ -173,10 +173,10 @@ function getColor(d) {
 }
 
 //2nd data
-var plates = "static/js/steps.json";
-var boundary = "static/js/boundaries.json";
-var orogens = "static/js/orogens.json";
-var step = "static/js/steps.json";
+var plates = "static/js/PB2002_steps.json";
+var boundary = "static/js/PB2002_boundaries.json";
+var orogens = "static/js/PB2002_orogens.json";
+var step = "static/js/PB2002_steps.json";
 
 //load tetonic plates data
 d3.json(plates).then(function (data) {
